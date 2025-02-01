@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: whitesmoke;
+    width: 100%;
+    margin-bottom: 20px;
+    position: fixed;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 35px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+a{
+    color: black;
+}
+.nav-links li{
+    display: inline;
+    margin: 15px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+}
+.navbar .nav-links a:hover {
+    color: #007bff;
+}
+.section1{
+    display: flex;
+
+}
+.leftsec1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftsec1 h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.leftsec1 p{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.leftsec1 button{
+    background: none;
+    border-radius: 30px;
+    background-color: #458FF6;
+    padding: 15px 35px;
+    font-size: 18px;
+    cursor: pointer;
+    border: #458FF6;
+    color: aliceblue;
+}
+.leftsec1 button:hover{
+    background-color: white; 
+    color: #007bff;
+}
+.rightsec1{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.rightsec1 img{
+    width: 600px;
+
+}
+.section1 .leftsec1 div{
+    margin-left: 35px;
+}
+
